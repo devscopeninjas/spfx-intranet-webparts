@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-groupssearch-webpart-client-side-solution",
+    "id": "2442418e-c681-4840-97ba-042ed4de993f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"   
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-groupssearch-webpart.sppkg"
+  }
+}

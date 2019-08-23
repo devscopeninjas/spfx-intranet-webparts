@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dev-scope-groups-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/devScopeGroupsSearch/DevScopeGroupsSearchWebPart.js",
+          "manifest": "./src/webparts/devScopeGroupsSearch/DevScopeGroupsSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DevScopeGroupsSearchWebPartStrings": "lib/webparts/devScopeGroupsSearch/loc/{locale}.js"
+  }
+}
